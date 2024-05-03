@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+
+public class Logger{
+    public init(){}
+    
+    public func printLog (){
+        print("Hello victotia xao quyet")
+    }
+    
+    func privateMehthod(){
+        print("pricate")
+    }
+}

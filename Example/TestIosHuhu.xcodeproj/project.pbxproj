@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* TestIosHuhu_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestIosHuhu_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7463562A361F1FCB205E99B1 /* TestIosHuhu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestIosHuhu.podspec; path = ../TestIosHuhu.podspec; sourceTree = "<group>"; };
+		7463562A361F1FCB205E99B1 /* TestIosHuhu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestIosHuhu.podspec; path = ../TestIosHuhu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8F8BD460F606DF09A41F4729 /* Pods_TestIosHuhu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestIosHuhu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9704C6D5F95BF38A82856370 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9704C6D5F95BF38A82856370 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D780EA8F3C59FDE7A9C74F6A /* Pods-TestIosHuhu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIosHuhu_Example.debug.xcconfig"; path = "Target Support Files/Pods-TestIosHuhu_Example/Pods-TestIosHuhu_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DA2D8CAD6A93A5B007AC7B81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DA2D8CAD6A93A5B007AC7B81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EFC8711149B918441BC80D67 /* Pods-TestIosHuhu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIosHuhu_Example.release.xcconfig"; path = "Target Support Files/Pods-TestIosHuhu_Example/Pods-TestIosHuhu_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				0298A43A2CAC00BC53A19CA4 /* Pods-TestIosHuhu_Tests.debug.xcconfig */,
 				0DB32F0087FF1625025BE7DA /* Pods-TestIosHuhu_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestIosHuhu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestIosHuhu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

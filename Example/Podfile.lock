@@ -1,0 +1,16 @@
+PODS:
+  - TestIosHuhu (0.1.0)
+
+DEPENDENCIES:
+  - TestIosHuhu (from `../`)
+
+EXTERNAL SOURCES:
+  TestIosHuhu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestIosHuhu: 95a30d9a433c94d9955080cae8a5b5400808fee2
+
+PODFILE CHECKSUM: 3d50658241e856dfa2fa64f576b1003d16503e04
+
+COCOAPODS: 1.14.3

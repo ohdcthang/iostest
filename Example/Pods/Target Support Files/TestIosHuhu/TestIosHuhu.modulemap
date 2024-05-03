@@ -1,0 +1,6 @@
+framework module TestIosHuhu {
+  umbrella header "TestIosHuhu-umbrella.h"
+
+  export *
+  module * { export * }
+}
